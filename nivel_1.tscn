@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dl0luvtlgflw5"]
+
+[ext_resource type="PackedScene" uid="uid://ewxplroxfg72" path="res://player.tscn" id="1_eciuy"]
+[ext_resource type="PackedScene" uid="uid://cakoryracnyxx" path="res://mapa.tscn" id="2_2lask"]
+
+[node name="Node2D" type="Node2D" unique_id=1073354730]
+
+[node name="TileMapLayer" parent="." unique_id=235544509 instance=ExtResource("2_2lask")]
+position = Vector2(127, 525)
+
+[node name="CharacterBody2D" parent="." unique_id=1389676780 instance=ExtResource("1_eciuy")]
+position = Vector2(-672, 750)
